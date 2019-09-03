@@ -8,7 +8,7 @@ func main() {
      fmt.Println( "Qual o valor da multiplicaçao dos valores", n1, "e", n2, "?")
     
     if n1 / n2 == 10{
-        fmt.Println (n1*n2)
+        fmt.Println (n1/n2)
           fmt.Println ( "esta correto!! A resposta é", R1 ) 
 
   } else if n1*n2 != 10 {
