@@ -7,12 +7,12 @@ func main() {
   const R1 int = 10
      fmt.Println( "Qual o valor da multiplicaçao dos valores", n1, "e", n2, "?")
     
-    if n1 / n2 == 10{
-        fmt.Println (n1/n2)
+    if n1 - n2 == 10{
+        fmt.Println (n1-n2)
           fmt.Println ( "esta correto!! A resposta é", R1 ) 
 
-  } else if n1*n2 != 10 {
-    fmt.Println( "Esta incsorreto!! \n o valor correto seria", R1 )
+  } else if n1-n2 != 10 {
+    fmt.Println( "Esta incorreto!! \n o valor correto é ", R1 )
   }
    i := 1 
     for i <= R1 {
